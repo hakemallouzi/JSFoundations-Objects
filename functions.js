@@ -93,7 +93,7 @@ const searchChannels = (query, channels) => {
       receive.description.includes(query) || receive.name.includes(query)
   );
 }
-console.log(searchChannels("the", channels))
+//console.log(searchChannels("the", channels))
 
 module.exports = {
   getChannelName,
@@ -103,3 +103,4 @@ module.exports = {
   getChannelByVideoTitle,
   searchChannels,
 };
+}
